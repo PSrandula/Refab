@@ -85,7 +85,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } fixed top-0 left-0 w-full bg-gradient-to-r from-[#8B4513] to-[#D2B48C] flex flex-col items-center justify-center md:hidden z-50 transition-all duration-300 ease-in-out`}
+        } fixed top-0 right-0 w-50 bg-gradient-to-r from-[#8B4513] to-[#D2B48C] flex flex-col items-center justify-center md:hidden z-50 transition-all duration-300 ease-in-out`}
       >
         <Link
           to="home"
